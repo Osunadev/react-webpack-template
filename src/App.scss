@@ -1,0 +1,14 @@
+$react_color: #01d1f7;
+
+h1 {
+  font-family: monospace;
+  font-size: 3rem;
+  color: $react_color;
+  margin-bottom: 2rem;
+}
+
+.app-container {
+  width: 500px;
+  margin: 0 auto;
+  text-align: center;
+}

@@ -1,0 +1,39 @@
+{
+  "name": "react-webpack-template",
+  "version": "1.0.0",
+  "description": "A basic react + webpack 4 configuration template with css/scss styles and images support.",
+  "main": "src/index.js",
+  "scripts": {
+    "webpack": "webpack",
+    "webpack-dev-server": "webpack-dev-server",
+    "start": "npm run webpack-dev-server -- --mode development --hot --open",
+    "build": "npm run webpack -- --mode production"
+  },
+  "keywords": [
+    "webpack",
+    "babel",
+    "react",
+    "scss"
+  ],
+  "author": "Omar Osuna",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^17.0.0",
+    "react-dom": "^17.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.3",
+    "@babel/preset-env": "^7.12.1",
+    "@babel/preset-react": "^7.12.1",
+    "babel-loader": "^8.1.0",
+    "css-loader": "^5.0.0",
+    "file-loader": "^6.1.1",
+    "html-webpack-plugin": "^4.5.0",
+    "mini-css-extract-plugin": "^1.1.1",
+    "sass": "^1.27.0",
+    "sass-loader": "^10.0.3",
+    "webpack": "^4.32.2",
+    "webpack-cli": "^3.3.0",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
